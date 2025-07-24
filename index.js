@@ -18,6 +18,6 @@ app.use('/users',userRoutes);
 app.use('/menu',menuRoutes);
 app.use('/student', studentRoutes);
 
-app.listen(PORT, () => {
-  console.log(`server running on http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`server running on http://localhost:${PORT}`);
+// });
